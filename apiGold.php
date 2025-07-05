@@ -1,6 +1,6 @@
 <?php
 
-header("Content-Type : application/json");
+header("Content-Type: application/json");
 if($_SERVER["REQUEST_METHOD"] === "POST"){
 
 $rawData = file_get_contents("php://input");
